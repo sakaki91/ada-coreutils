@@ -1,0 +1,17 @@
+Ada Coreutils.
+
+- What’s Ada?
+  ==> Ada is a small, fast, predictable, and simple coreutils project for UNIX/Unix-like systems.
+
+- Warning:
+  ==> This software is experimental, and completely replacing the operating system's coreutils is NOT RECOMMENDED.
+
+- How to test?
+  $ git clone https://github.com/sakaki91/ada-coreutils
+  $ cd ada
+  $ mkdir ada-build
+  $ ./build.sh --prefix ada-build
+
+- License:
+  ==> BSD 3-Clause License
+  ==> Copyright (c) 2026, Sakaki
