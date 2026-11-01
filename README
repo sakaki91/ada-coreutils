@@ -8,7 +8,7 @@ Ada Coreutils.
 
 - How to test?
   $ git clone https://github.com/sakaki91/ada-coreutils
-  $ cd ada
+  $ cd ada-coreutils
   $ mkdir ada-build
   $ ./build.sh --prefix ada-build
 
