@@ -1,16 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// cat - v1.2
-// Copyright (C) by Sakaki, 2026.
-// LICENSE: BSD 3-Clause License <https://opensource.org/license/bsd-3-clause>
-
 int main(int argc, char *argv[]){
     FILE *read_file;
     char line_size[8192];
     if (argc < 2){
-        fprintf(stderr, "usage: cat <file>\n");
-        exit(EXIT_FAILURE);
+        puts("usage: cat <file>");
     } else {
         for(int i = 1; i < argc; i++){
             read_file = fopen(argv[i], "r");
